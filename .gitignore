@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ChromaDB
+vector_store/chromadb/
+
+# Local Data
+data/papers/
+data/github_repos/
+
+# Database Files
+*.db
+*.sqlite3
+
+# Environment Variables
+.env
+
+# IDE Files
+.vscode/
+.idea/
+
+# Streamlit Cache
+.streamlit/secrets.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
